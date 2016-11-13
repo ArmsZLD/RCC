@@ -10,7 +10,7 @@ export default class MyScene extends Component {
           <Text>Tap me to load the next scene</Text>
         </TouchableHighlight>
         <TouchableHighlight onPress={this.props.onBack}>
-          <Text>Tap me to go back to previous</Text>
+          <Text>Tap me to go back to previous scene</Text>
         </TouchableHighlight>
       </View>
     )
